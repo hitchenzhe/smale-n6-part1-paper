@@ -1,0 +1,18 @@
+# Local environments and caches
+verification/.venv/
+**/__pycache__/
+*.pyc
+
+# Replay outputs and third-party source data
+**/run_logs/
+verification/independent_review/appendix_replay_results.json
+verification/independent_review/reconstruction_run_summary.json
+verification/diagrams_117/
+verification/SingSeqCCver202303.nb
+
+# TeX build intermediates
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
