@@ -1,0 +1,92 @@
+{
+  "diagram": 52,
+  "squared_distance_orders": {
+    "12": "-1",
+    "13": "-1",
+    "14": "-1",
+    "15": "-1",
+    "16": "0",
+    "23": "4 - 2*alpha",
+    "24": "5 - 3*alpha",
+    "25": "4 - 2*alpha",
+    "26": "5 - 3*alpha",
+    "34": "5 - 3*alpha",
+    "35": "4 - 2*alpha",
+    "36": "5 - 3*alpha",
+    "45": "2",
+    "46": "2",
+    "56": "2"
+  },
+  "seven_product_orders": {
+    "12": "19 - 8*alpha",
+    "13": "19 - 8*alpha",
+    "14": "23 - 12*alpha",
+    "15": "25 - 14*alpha",
+    "16": "24 - 12*alpha",
+    "23": "8 - 2*alpha",
+    "24": "14 - 8*alpha",
+    "25": "14 - 8*alpha",
+    "26": "13 - 8*alpha",
+    "34": "14 - 8*alpha",
+    "35": "14 - 8*alpha",
+    "36": "13 - 8*alpha",
+    "45": "14 - 8*alpha",
+    "46": "11 - 6*alpha",
+    "56": "13 - 8*alpha"
+  },
+  "minimum_order_on_13_8_to_7_4": "13-8*alpha",
+  "minimizing_products": [
+    "26",
+    "36",
+    "56"
+  ],
+  "middle_interval_positive_remainder_orders": {
+    "missing_edge_source": "5 - 3*alpha",
+    "triangle_relative": "4 - 2*alpha",
+    "crossed_remainder": "9*alpha/2 - 11/2"
+  },
+  "outer_w_lead_partition_cases": [
+    {
+      "triple": "all equal",
+      "W1": "forced different by centre",
+      "status": "remaining"
+    },
+    {
+      "triple": "exactly two equal #1",
+      "W1": "arbitrary",
+      "status": "two-edge path contradiction"
+    },
+    {
+      "triple": "exactly two equal #2",
+      "W1": "arbitrary",
+      "status": "two-edge path contradiction"
+    },
+    {
+      "triple": "exactly two equal #3",
+      "W1": "arbitrary",
+      "status": "two-edge path contradiction"
+    },
+    {
+      "triple": "pairwise distinct",
+      "W1": "matches W2",
+      "status": "mass-weighted original z-row contradiction"
+    },
+    {
+      "triple": "pairwise distinct",
+      "W1": "matches W3",
+      "status": "mass-weighted original z-row contradiction"
+    },
+    {
+      "triple": "pairwise distinct",
+      "W1": "matches B",
+      "status": "uncancelled potential pole"
+    },
+    {
+      "triple": "pairwise distinct",
+      "W1": "matches none",
+      "status": "outer z-row and zw-edge contradiction"
+    }
+  ],
+  "status": "passed",
+  "scope": "Replays the displayed order arithmetic and finite case partition; endpoint signed-force Jacobians and energy inequalities are checked by generate_no52_certificate.py."
+}

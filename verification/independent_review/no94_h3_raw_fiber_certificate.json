@@ -1,0 +1,157 @@
+{
+  "diagram": 94,
+  "field": "F_17[x,y] via python-flint nmod_mpoly",
+  "mass_witness_mod17": [
+    1,
+    3,
+    5,
+    1
+  ],
+  "pair_resultant_multidegrees_xy": [
+    [
+      102,
+      102
+    ],
+    [
+      96,
+      102
+    ],
+    [
+      102,
+      96
+    ]
+  ],
+  "H3_numerator_multidegree_xy": [
+    12,
+    12
+  ],
+  "three_y_elimination_degrees": [
+    1608,
+    1608,
+    1608
+  ],
+  "common_x_factor_degree": 1120,
+  "common_x_factors": [
+    {
+      "degree": 1,
+      "multiplicity": 360,
+      "coefficients_ascending": [
+        16,
+        1
+      ]
+    },
+    {
+      "degree": 2,
+      "multiplicity": 360,
+      "coefficients_ascending": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "degree": 4,
+      "multiplicity": 10,
+      "coefficients_ascending": [
+        6,
+        2,
+        0,
+        12,
+        1
+      ]
+    }
+  ],
+  "guard_saturated_y_fibers": [
+    {
+      "x_factor_degree": 1,
+      "common_y_fiber_degree": 12,
+      "guarded_saturated_degree": 0,
+      "guards_meeting_fiber": [
+        {
+          "guard": "circle_1",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "circle_2",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "circle_difference_12",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "circle_difference_13",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "circle_difference_23",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "spoke_cube_difference_13",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "spoke_cube_difference_23",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "geometric_determinant",
+          "gcd_degree": 9
+        }
+      ]
+    },
+    {
+      "x_factor_degree": 2,
+      "common_y_fiber_degree": 12,
+      "guarded_saturated_degree": 0,
+      "guards_meeting_fiber": [
+        {
+          "guard": "circle_1",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "circle_2",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "circle_difference_12",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "circle_difference_13",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "circle_difference_23",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "spoke_cube_difference_13",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "spoke_cube_difference_23",
+          "gcd_degree": 3
+        },
+        {
+          "guard": "geometric_determinant",
+          "gcd_degree": 9
+        }
+      ]
+    },
+    {
+      "x_factor_degree": 4,
+      "common_y_fiber_degree": 1,
+      "guarded_saturated_degree": 0,
+      "guards_meeting_fiber": [
+        {
+          "guard": "geometric_determinant",
+          "gcd_degree": 1
+        }
+      ]
+    }
+  ],
+  "pairwise_guard_count": 13,
+  "scope": "Replays the raw 102/96-degree H3 affine fiber elimination and exact guard saturation at the stated finite-field mass sample. The remaining projective boundary charts are separate."
+}

@@ -1,0 +1,25 @@
+{
+  "manuscript": "main_merged_revised.tex",
+  "manuscript_sha256": "9bfdbfcc3fe385c524c47af4de8cf78f133dc3a0ea8c9d799a1dacbcccdfd385",
+  "checks": {
+    "no66_spoke_and_centre": true,
+    "no66_infinity_limits": true,
+    "no66_difference_nonzero_generic": true,
+    "no66_difference_order_three": true,
+    "no66_differential_identity": true,
+    "no79_printed_modulus_gap": "4*t*theta*(t*theta**2 + 2)",
+    "no79_norm_gap_identity": true,
+    "no79_large_asymmetry_G": "(4*t**2*theta**4 + 8*t**2*theta**3 + 4*t**2*theta**2 + 7*t*theta**2 + 16*t*theta + 9*t - 2)/2",
+    "no79_large_asymmetry_G_identity": true,
+    "no79_large_asymmetry_G_corner": "1591621/2000000",
+    "no79_large_asymmetry_G_corner_positive": true,
+    "no79_weighted_ratio_present": true,
+    "no79_weighted_sector_identity_present": true,
+    "no52_H5_QJ_gap": "Y*lam**3 - Y*lam**2 + Y - lam**5 + lam**3",
+    "no52_gap_identity": true,
+    "no52_Cauchy_gap": "-X*lam**2*(lam**2 - 2)",
+    "no52_Cauchy_identity": true
+  },
+  "mathematical_status": "No.79 weighted sector algebra verified; original-row mapping and shape-energy bounds remain separate proof obligations",
+  "scope": "Exact local algebra only; no branch-exhaustion or original-row coverage proof."
+}

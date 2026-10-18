@@ -1,0 +1,582 @@
+{
+  "direct_balance": {
+    "diagram": 63,
+    "core_vertices": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "leading_rows": 8,
+    "all_internal_edge_terms_order_minus_two": true,
+    "all_position_and_external_terms_strictly_later": true,
+    "mass_weighted_z_translation_identity": true,
+    "mass_weighted_w_translation_identity": true,
+    "scope": "Leading-row extraction is conditional on the manuscript's diagram-order rules; the code checks the resulting K4 row model."
+  },
+  "CM_sheet_witness": {
+    "prime": 32029,
+    "cube_roots_of_unity": [
+      1,
+      31555,
+      473
+    ],
+    "sheet_order": "1,31555,473 (fixed ordering of the unordered root set)",
+    "computed_lexicographic_CM_values": [
+      4,
+      28239,
+      3786,
+      28239,
+      27289,
+      32027,
+      3786,
+      32027,
+      4730
+    ],
+    "printed_lexicographic_CM_values": [
+      4,
+      28239,
+      3786,
+      28239,
+      27289,
+      32027,
+      3786,
+      32027,
+      4730
+    ],
+    "same_multiset_as_printed": true,
+    "printed_order_matches_computed_order": true,
+    "all_nonzero": true
+  },
+  "collinear_branches": {
+    "diagram": 63,
+    "sample_m3_m4_m5_m6": [
+      2,
+      3,
+      5,
+      1
+    ],
+    "independent_sign_classes": 32,
+    "global_sign_reversal_classes": 64,
+    "all_inner_resultant_y_degrees_eight": true,
+    "all_outer_resultants_nonzero": true,
+    "outer_resultant_bit_range": [
+      122,
+      169
+    ],
+    "branches": [
+      {
+        "signs": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "400867629214111866315758669318493804931640625",
+        "outer_resultant_bits": 149
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "829139722968080939364594911087678375244140625",
+        "outer_resultant_bits": 150
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "-823235964596610935831145236808929443359375",
+        "outer_resultant_bits": 140
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "975995286999549328106675791018957672119140625",
+        "outer_resultant_bits": 150
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "3571704122341964733526269999475250244140625",
+        "outer_resultant_bits": 142
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "231481198548694500075173910993804931640625",
+        "outer_resultant_bits": 138
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "-969403515536457713088496995280609130859375",
+        "outer_resultant_bits": 140
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "-124669740468505641681632879211273193359375",
+        "outer_resultant_bits": 137
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "958052748082318821172284030914306640625",
+        "outer_resultant_bits": 130
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          1,
+          -1,
+          -1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "34810805167105001538847441613922119140625",
+        "outer_resultant_bits": 135
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "-5075188351911600798063732757568359375",
+        "outer_resultant_bits": 122
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "-3448404840276152743576893981781005859375",
+        "outer_resultant_bits": 132
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "-118415272931530639570709069671630859375",
+        "outer_resultant_bits": 127
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          1,
+          1,
+          -1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "-24704267721763839642152746429443359375",
+        "outer_resultant_bits": 125
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "-139955965342622439366090466156005859375",
+        "outer_resultant_bits": 127
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "7765414843741669285034275054931640625",
+        "outer_resultant_bits": 123
+      },
+      {
+        "signs": [
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "37833493726668981257146123234253425445556640625",
+        "outer_resultant_bits": 155
+      },
+      {
+        "signs": [
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "673023442654727643586267363621196447906494140625",
+        "outer_resultant_bits": 159
+      },
+      {
+        "signs": [
+          1,
+          1,
+          -1,
+          -1,
+          1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "2655744127893451546668738714217663726806640625",
+        "outer_resultant_bits": 151
+      },
+      {
+        "signs": [
+          1,
+          1,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "4227402975860117084762316654378694000244140625",
+        "outer_resultant_bits": 152
+      },
+      {
+        "signs": [
+          1,
+          1,
+          -1,
+          1,
+          -1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "-416241528491949268686031366927745280609130859375",
+        "outer_resultant_bits": 159
+      },
+      {
+        "signs": [
+          1,
+          1,
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "-697196977871183926880399658539611663818359375",
+        "outer_resultant_bits": 149
+      },
+      {
+        "signs": [
+          1,
+          1,
+          -1,
+          1,
+          1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "262296080253680340379634564987366418609619140625",
+        "outer_resultant_bits": 158
+      },
+      {
+        "signs": [
+          1,
+          1,
+          -1,
+          1,
+          1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "2647960217104518081923937267513532867431640625",
+        "outer_resultant_bits": 151
+      },
+      {
+        "signs": [
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "6498024682955728257945295577284892224273681640625",
+        "outer_resultant_bits": 163
+      },
+      {
+        "signs": [
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "5954695283144785204267236421586966613922119140625",
+        "outer_resultant_bits": 163
+      },
+      {
+        "signs": [
+          1,
+          1,
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "10532330754689821396100699553161716461181640625",
+        "outer_resultant_bits": 153
+      },
+      {
+        "signs": [
+          1,
+          1,
+          1,
+          -1,
+          1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "2120721933239703495294921546816772277984619140625",
+        "outer_resultant_bits": 161
+      },
+      {
+        "signs": [
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "73819414310359829757517670485986103283843994140625",
+        "outer_resultant_bits": 166
+      },
+      {
+        "signs": [
+          1,
+          1,
+          1,
+          1,
+          -1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "956768913974170374962845457968060398101806640625",
+        "outer_resultant_bits": 160
+      },
+      {
+        "signs": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "426242330999060961180414409003377686877593994140625",
+        "outer_resultant_bits": 169
+      },
+      {
+        "signs": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "inner_y_degrees": [
+          8,
+          8
+        ],
+        "outer_resultant": "23841729830516026560399386197006562194976806640625",
+        "outer_resultant_bits": 165
+      }
+    ]
+  }
+}

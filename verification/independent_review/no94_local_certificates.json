@@ -1,0 +1,200 @@
+{
+  "no94_positive_mass_exceptional_locus_certificate": {
+    "sample_mod17": [
+      1,
+      3,
+      5
+    ],
+    "Q_irreducible_degree": 4,
+    "forbidden_guard_Q_values_mod17": [
+      15,
+      2,
+      5,
+      7,
+      12
+    ],
+    "wing_dominant_F_coefficients_ascending_mod17": [
+      4,
+      8,
+      11,
+      5,
+      12,
+      15,
+      15
+    ],
+    "wing_dominant_K_coefficients_ascending_mod17": [
+      14,
+      13,
+      10,
+      16,
+      10
+    ],
+    "wing_dominant_resultant_mod17": 12,
+    "scope": "Exact local zero-sum fibers. Does not cover every No. 94 chart or establish the global exceptional-mass proposition."
+  },
+  "test_no94_all_zero_spokes_finite_wing_shapes_have_no_h3_zero_mod17": {
+    "sample_mod17": [
+      1,
+      3,
+      5
+    ],
+    "collinear_euler_signs": [
+      {
+        "signs": [
+          -1,
+          -1,
+          -1
+        ],
+        "degree": 5,
+        "gcd_degree": 0
+      },
+      {
+        "signs": [
+          -1,
+          -1,
+          1
+        ],
+        "degree": 5,
+        "gcd_degree": 0
+      },
+      {
+        "signs": [
+          -1,
+          1,
+          -1
+        ],
+        "degree": 5,
+        "gcd_degree": 0
+      },
+      {
+        "signs": [
+          -1,
+          1,
+          1
+        ],
+        "degree": 5,
+        "gcd_degree": 0
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          -1
+        ],
+        "degree": 5,
+        "gcd_degree": 0
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          1
+        ],
+        "degree": 5,
+        "gcd_degree": 0
+      },
+      {
+        "signs": [
+          1,
+          1,
+          -1
+        ],
+        "degree": 5,
+        "gcd_degree": 0
+      },
+      {
+        "signs": [
+          1,
+          1,
+          1
+        ],
+        "degree": 5,
+        "gcd_degree": 0
+      }
+    ],
+    "noncollinear_phase_resultants_basis_1_omega": [
+      [
+        4,
+        0
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        9,
+        5
+      ]
+    ],
+    "all_8_plus_27_branches_exclude_H3_zero": true,
+    "scope": "The finite-wing component of the all-spokes-zero boundary only."
+  },
+  "test_no94_two_diverging_spokes_have_no_balanced_three_body_boundary_mod17": {
+    "mass_triples": [
+      {
+        "masses_m2_m3_m4": [
+          3,
+          5,
+          1
+        ],
+        "resultants_mod17": [
+          10,
+          8,
+          9,
+          6
+        ]
+      },
+      {
+        "masses_m2_m3_m4": [
+          1,
+          5,
+          1
+        ],
+        "resultants_mod17": [
+          16,
+          4,
+          16,
+          15
+        ]
+      },
+      {
+        "masses_m2_m3_m4": [
+          1,
+          3,
+          1
+        ],
+        "resultants_mod17": [
+          3,
+          13,
+          3,
+          6
+        ]
+      }
+    ],
+    "all_twelve_nonzero": true
+  }
+}

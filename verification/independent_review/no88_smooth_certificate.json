@@ -1,0 +1,258 @@
+{
+  "diagram": 88,
+  "field": "F101[omega]/(omega^2+omega+1)",
+  "affine_normalization": "z1=w1=0, z2=1, w2=D12^-2, sum(m_i)=1",
+  "distance_ties_verified": true,
+  "both_force_systems_verified": true,
+  "quadratic_orientation_discriminant": [
+    4,
+    0
+  ],
+  "CM_recovery_jacobian_rows": [
+    "CM",
+    "opposite_y",
+    "opposite_x"
+  ],
+  "CM_recovery_jacobian_columns": [
+    "t",
+    "v",
+    "w"
+  ],
+  "generic_cleared_numerator_jacobian": [
+    74,
+    97
+  ],
+  "specialized_numerator_integer_content": 32,
+  "primitive_specialized_numerator_jacobian": [
+    97,
+    63
+  ],
+  "orientations": [
+    {
+      "orientation_sign": 1,
+      "affine_z": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          15,
+          69
+        ]
+      ],
+      "affine_w": [
+        [
+          0,
+          0
+        ],
+        [
+          76,
+          0
+        ],
+        [
+          53,
+          0
+        ],
+        [
+          66,
+          17
+        ]
+      ],
+      "normalized_masses": [
+        [
+          80,
+          66
+        ],
+        [
+          34,
+          93
+        ],
+        [
+          45,
+          29
+        ],
+        [
+          44,
+          14
+        ]
+      ],
+      "centered_W": [
+        [
+          41,
+          61
+        ],
+        [
+          16,
+          61
+        ],
+        [
+          94,
+          61
+        ],
+        [
+          6,
+          78
+        ]
+      ],
+      "H": [
+        93,
+        99
+      ],
+      "eight_original_force_row_residuals": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "orientation_sign": -1,
+      "affine_z": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          62,
+          68
+        ]
+      ],
+      "affine_w": [
+        [
+          0,
+          0
+        ],
+        [
+          76,
+          0
+        ],
+        [
+          55,
+          0
+        ],
+        [
+          29,
+          93
+        ]
+      ],
+      "normalized_masses": [
+        [
+          80,
+          66
+        ],
+        [
+          34,
+          93
+        ],
+        [
+          45,
+          29
+        ],
+        [
+          44,
+          14
+        ]
+      ],
+      "centered_W": [
+        [
+          17,
+          59
+        ],
+        [
+          93,
+          59
+        ],
+        [
+          72,
+          59
+        ],
+        [
+          46,
+          51
+        ]
+      ],
+      "H": [
+        99,
+        57
+      ],
+      "eight_original_force_row_residuals": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+}

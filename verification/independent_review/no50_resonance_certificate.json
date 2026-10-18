@@ -1,0 +1,27 @@
+{
+  "diagram": 50,
+  "open_window": [
+    "13/8",
+    "7/4"
+  ],
+  "delta_order": "s/3 - 1/3",
+  "unmarked13_pole_order": "4*s/3 - 7/3",
+  "w_row_relative_error_lower_orders": {
+    "coordinate_reference": "6 - 3*s",
+    "w13_relative": "4*s/3 - 4/3",
+    "other_near_crossed_w_force": "3*s/2 - 3/2",
+    "maximal23_endpoint_to_inner_w_force": "3 - 3*s/2"
+  },
+  "bridge_cube_ratio": "-T*m6/(m3*m5)",
+  "bridge_leading_ratio": "-m1*m6/(m3*m5)",
+  "bridge_leading_mass_condition": "-T*m3**2*m5**2 + m1**3*m6**2",
+  "correct_normalized_ratio": "(D/A)/(D0/A0)=1+(v/(3*u))*epsilon^((s-1)/3)+o(epsilon^((s-1)/3))",
+  "constant_minus_one_in_old_manuscript_is_inconsistent": true,
+  "pair_potential_coefficient": "m1*m3*E0/3",
+  "unmarked_13_potential_coefficient": "m1*m3*E0",
+  "complete_potential_coefficient": "4*m1*m3*E0/3",
+  "first_uncancelled_potential": "(4*m1*m3*E0/3)*epsilon^((4*s-7)/3)",
+  "no_new_exceptional_mass_factor_needed": true,
+  "all_other_missing_edge_potentials_strictly_later": true,
+  "scope": "The open only-23 resonance; remaining graph branches and endpoint need their original-row arguments."
+}

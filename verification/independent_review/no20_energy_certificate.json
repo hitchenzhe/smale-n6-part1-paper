@@ -1,0 +1,27 @@
+{
+  "shape_polynomial": "c^2 (b t^3+a)(a+bt)^3-(ab)^3 t^3",
+  "P_at_1": "-mu6",
+  "Pprime_at_1": "3 c^2 (a+b)^3 (b-a)-3 mu6",
+  "simple_root_condition": "mu6=0 and a!=b",
+  "offset_center_reduction_verified": true,
+  "finite_energy_reduction_verified": true,
+  "Holder_mass_pair_and_energy_bounds_rebuilt": true,
+  "positive_real_cube_phase_pairs_checked": {
+    "ordered_phase_pairs_checked": 9,
+    "only_positive_real_pair": [
+      0,
+      0
+    ],
+    "opposite_nontrivial_pair_at_equal_weights_is_negative": true
+  },
+  "shape_lower_bound": "x >= 2^(2/3) > 19/12",
+  "holder_gap_coefficients_at_19_12": [
+    "3547/1728",
+    "-1829/576",
+    "22301/1152",
+    "1645/432"
+  ],
+  "quadratic_discriminant_gap": "148167571/995328",
+  "holder_gap_strictly_increasing_for_x_ge_19_12": true,
+  "analytic_scope": "Asymptotic valuation and global branch assumptions are read from the supplied proof and are not certified by symbolic arithmetic alone."
+}

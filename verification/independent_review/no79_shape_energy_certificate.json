@@ -1,0 +1,37 @@
+{
+  "source": "sections/\u77eb\u6b63/1.png through 6.png",
+  "status": "passed",
+  "exact_checks": [
+    "homogeneous signed triangle sextic and Eq. (30) normal form",
+    "positive-real triangle forces d>b and hence p<n",
+    "bridge mass-weighted ratio, K identity and signed cubic gap",
+    "final sector Re(d26^3)<0 and strict Re(r)>1 bridge",
+    "wing-swap reciprocal identity",
+    "equal-weight Re(r) monotonicity and 117/125 endpoint",
+    "equal-weight q0 and delta constants",
+    "mass identity (32)",
+    "unequal bridge N1-N2 identity",
+    "unequal weighted bridge modulus comparison and cubic moment",
+    "positive-coefficient rational chart for t>1/5",
+    "Eq. (33) mass-ratio constant"
+  ],
+  "equal_weight_constants": {
+    "q0": "24/25",
+    "Re_r_at_s_1_over_4": "117/125",
+    "delta_squared_upper": "16/125",
+    "mass_factor_C0": "3125/108"
+  },
+  "t_floor_gap_coefficients_descending": [
+    175,
+    9385,
+    53453,
+    129401,
+    167471,
+    125127,
+    54243,
+    12711,
+    1250
+  ],
+  "unequal_weight_bound_constant": "20736/15625",
+  "scope": "Checks exact algebraic identities and rational constants in the new No. 79 shape-energy derivation. It does not independently regenerate the diagram, valuation branches, original-row-to-shape assignment, or global geometric cover."
+}

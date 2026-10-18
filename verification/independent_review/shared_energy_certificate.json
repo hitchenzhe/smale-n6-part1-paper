@@ -1,0 +1,23 @@
+{
+  "complement_product_matrix_determinant": -114688,
+  "complement_product_eigenvalues": {
+    "7": 1,
+    "-2": 5,
+    "2": 9
+  },
+  "four_cycle_rational_deficit_exact": true,
+  "cycle_reciprocal_mass_bound_exact": true,
+  "no20_four_coefficients": [
+    "3547/1728",
+    "-1829/576",
+    "22301/1152",
+    "1645/432"
+  ],
+  "no20_quadratic_discriminant_gap": "148167571/995328",
+  "no20_monotonicity_on_x_ge_19_12": true,
+  "no36_replacement_positive_deficit": "(2*a**2*c + 2*a**2*e + a*b*c + a*b*d + 3*a*b*e + 2*b**2*d + 2*b**2*e)/(a + b)",
+  "no36_bad_old_equality_unit_mass_left": "87/40",
+  "no36_bad_old_equality_unit_mass_right": "11/8",
+  "no105_eliminated_ratio": "-m3**4*m6**2/(m2**3*m5**3)",
+  "scope": "Exact algebra and mass inequalities, separate from graph-specific valuation exhaustion."
+}

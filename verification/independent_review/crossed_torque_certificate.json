@@ -1,0 +1,51 @@
+{
+  "diagrams": [
+    93,
+    98
+  ],
+  "exact_original_cluster_torque_identity": true,
+  "exact_mass_weighted_cluster_row_identities": true,
+  "crossed_tie_leading_constraint": "K^2*Z*W=-1",
+  "crossed_torque_leading_term": "-K^3*Z*W=K",
+  "no93_domain": "-2<alpha<2; s=1-alpha/2 in (0,2)",
+  "no93_orders": {
+    "body4_z_position": "alpha",
+    "body4_crossed_inverse_distance": "1 - alpha/2",
+    "body4_crossed_z_force": "3 - alpha/2",
+    "body4_crossed_w_force": "1 - 3*alpha/2",
+    "body4_crossed_torque": "1 - alpha/2",
+    "body56_crossed_torque": "2",
+    "relative_tie_corrections": [
+      "2 - alpha",
+      "4",
+      "6 - alpha"
+    ]
+  },
+  "no93_row_closure_argument": [
+    "w5,w6=O(epsilon^2) by their original rows",
+    "upper internal w gaps have order 2, hence w4=O(epsilon^2)",
+    "weighted lower z center is o(epsilon^2), lower z gaps order 2, hence all lower z=O(epsilon^2)",
+    "alpha>=2 contradicts D4j=o(1) via its original signed tie",
+    "4j torque order s is strictly earlier than 5j/6j torque order 2"
+  ],
+  "no98_internal_orders_z_w_D": {
+    "upper": [
+      -2,
+      2,
+      0
+    ],
+    "lower": [
+      2,
+      -2,
+      0
+    ]
+  },
+  "no98_crossed_orders_z_w_D": [
+    -2,
+    -2,
+    2
+  ],
+  "no98_block_center_argument": "Mass-weighted original rows cancel internal forces; crossed forces have order 4, so each leading internal boundary is mass centered.",
+  "no98_Lagrange_energy_identities_exact": true,
+  "diagram_input": "The stated strokes/circles and maximal-stroke rules of the cited Chang-Chen classification. This file verifies the original-row algebra after that explicit input."
+}

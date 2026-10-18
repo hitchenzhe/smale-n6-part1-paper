@@ -1,0 +1,306 @@
+{
+  "diagram": 88,
+  "star_vertices": 4,
+  "spoke_phase_triples": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      2,
+      2
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      2,
+      2,
+      0
+    ],
+    [
+      2,
+      2,
+      1
+    ],
+    [
+      2,
+      2,
+      2
+    ]
+  ],
+  "star_phase_labels": 108,
+  "CM_quadratic_identities": [
+    {
+      "star": 1,
+      "free_nonstar_edge": [
+        2,
+        3
+      ],
+      "opposite_spoke": [
+        1,
+        4
+      ],
+      "leading_coefficient": "-2*s14"
+    },
+    {
+      "star": 1,
+      "free_nonstar_edge": [
+        2,
+        4
+      ],
+      "opposite_spoke": [
+        1,
+        3
+      ],
+      "leading_coefficient": "-2*s13"
+    },
+    {
+      "star": 1,
+      "free_nonstar_edge": [
+        3,
+        4
+      ],
+      "opposite_spoke": [
+        1,
+        2
+      ],
+      "leading_coefficient": "-2*s12"
+    },
+    {
+      "star": 2,
+      "free_nonstar_edge": [
+        1,
+        3
+      ],
+      "opposite_spoke": [
+        2,
+        4
+      ],
+      "leading_coefficient": "-2*s24"
+    },
+    {
+      "star": 2,
+      "free_nonstar_edge": [
+        1,
+        4
+      ],
+      "opposite_spoke": [
+        2,
+        3
+      ],
+      "leading_coefficient": "-2*s23"
+    },
+    {
+      "star": 2,
+      "free_nonstar_edge": [
+        3,
+        4
+      ],
+      "opposite_spoke": [
+        1,
+        2
+      ],
+      "leading_coefficient": "-2*s12"
+    },
+    {
+      "star": 3,
+      "free_nonstar_edge": [
+        1,
+        2
+      ],
+      "opposite_spoke": [
+        3,
+        4
+      ],
+      "leading_coefficient": "-2*s34"
+    },
+    {
+      "star": 3,
+      "free_nonstar_edge": [
+        1,
+        4
+      ],
+      "opposite_spoke": [
+        2,
+        3
+      ],
+      "leading_coefficient": "-2*s23"
+    },
+    {
+      "star": 3,
+      "free_nonstar_edge": [
+        2,
+        4
+      ],
+      "opposite_spoke": [
+        1,
+        3
+      ],
+      "leading_coefficient": "-2*s13"
+    },
+    {
+      "star": 4,
+      "free_nonstar_edge": [
+        1,
+        2
+      ],
+      "opposite_spoke": [
+        3,
+        4
+      ],
+      "leading_coefficient": "-2*s34"
+    },
+    {
+      "star": 4,
+      "free_nonstar_edge": [
+        1,
+        3
+      ],
+      "opposite_spoke": [
+        2,
+        4
+      ],
+      "leading_coefficient": "-2*s24"
+    },
+    {
+      "star": 4,
+      "free_nonstar_edge": [
+        2,
+        3
+      ],
+      "opposite_spoke": [
+        1,
+        4
+      ],
+      "leading_coefficient": "-2*s14"
+    }
+  ],
+  "phase_independent_CM_nonidentity": true,
+  "mass_normalization": "m_star=1/(1+scale*(a+b+c)); m_others=scale*(a,b,c)/(1+scale*(a+b+c))",
+  "uncentered_star_W": "0",
+  "weighted_nonstar_W": "K=a*wa+b*wb+c*wc",
+  "scaled_ui_limits": [
+    "-1/(a*wa + b*wb + c*wc)",
+    "0",
+    "0",
+    "0"
+  ],
+  "limit_scale4_H": "(a*wa + b*wb + c*wc)**(-4)",
+  "guards": [
+    "all three spoke distances nonzero",
+    "wa,wb,wc nonzero by spoke distance ties",
+    "K nonzero: otherwise the centered star W is zero, forbidden by its circle",
+    "total normalized mass denominator nonzero"
+  ],
+  "scope": "Checks the universal nonidentity and free mass-scale cut; the rank-one stress supplies the stated fixed nonstar mass ratios."
+}

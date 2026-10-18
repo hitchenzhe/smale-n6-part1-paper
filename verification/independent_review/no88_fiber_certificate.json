@@ -1,0 +1,355 @@
+{
+  "source": "independent reconstruction from derived_relations.tex equations (No. 88)",
+  "field": "F_101",
+  "base_specialization": {
+    "x": 52,
+    "y": 26,
+    "z": 44
+  },
+  "cm_numerator_total_degree_t_v_w": 10,
+  "cm_cleared_denominator": "53524684928*t**4*v**4*w**4",
+  "cm_numerator_terms_mod_101": [
+    {
+      "x": 4,
+      "y": 4,
+      "z": 4,
+      "t": 2,
+      "v": 2,
+      "w": 2,
+      "coefficient": 99
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "z": 2,
+      "t": 2,
+      "v": 4,
+      "w": 2,
+      "coefficient": 2
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "z": 2,
+      "t": 2,
+      "v": 2,
+      "w": 4,
+      "coefficient": 2
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "z": 2,
+      "t": 0,
+      "v": 4,
+      "w": 4,
+      "coefficient": 99
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "z": 0,
+      "t": 2,
+      "v": 4,
+      "w": 4,
+      "coefficient": 99
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 4,
+      "t": 4,
+      "v": 2,
+      "w": 2,
+      "coefficient": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 4,
+      "t": 4,
+      "v": 0,
+      "w": 4,
+      "coefficient": 99
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 4,
+      "t": 2,
+      "v": 2,
+      "w": 4,
+      "coefficient": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 2,
+      "t": 4,
+      "v": 4,
+      "w": 2,
+      "coefficient": 99
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 2,
+      "t": 4,
+      "v": 2,
+      "w": 4,
+      "coefficient": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 2,
+      "t": 2,
+      "v": 4,
+      "w": 4,
+      "coefficient": 2
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 4,
+      "t": 4,
+      "v": 2,
+      "w": 4,
+      "coefficient": 99
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 4,
+      "t": 4,
+      "v": 4,
+      "w": 0,
+      "coefficient": 99
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 4,
+      "t": 4,
+      "v": 2,
+      "w": 2,
+      "coefficient": 2
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 4,
+      "t": 2,
+      "v": 4,
+      "w": 2,
+      "coefficient": 2
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 2,
+      "t": 4,
+      "v": 4,
+      "w": 2,
+      "coefficient": 2
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 2,
+      "t": 4,
+      "v": 2,
+      "w": 4,
+      "coefficient": 99
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 2,
+      "t": 2,
+      "v": 4,
+      "w": 4,
+      "coefficient": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 4,
+      "t": 4,
+      "v": 4,
+      "w": 2,
+      "coefficient": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 4,
+      "t": 4,
+      "v": 2,
+      "w": 4,
+      "coefficient": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 4,
+      "t": 2,
+      "v": 4,
+      "w": 4,
+      "coefficient": 99
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": 4,
+      "t": 4,
+      "v": 4,
+      "w": 2,
+      "coefficient": 99
+    }
+  ],
+  "smooth_shape_point_mod_1012": {
+    "coordinates_in_1_omega_basis": [
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        75,
+        0
+      ],
+      [
+        0,
+        37
+      ],
+      [
+        0,
+        18
+      ]
+    ],
+    "opposite_equation_residuals": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "cayley_menger_residual": [
+      0,
+      0
+    ]
+  },
+  "v_cubic_recovery_coefficient": 40,
+  "w_cubic_recovery_coefficient": 70,
+  "resultant_order": [
+    "Res_v(CM numerator, v recovery)",
+    "Res_w(previous, w recovery)"
+  ],
+  "norm_degree": 90,
+  "norm_leading_coefficient_before_monic_normalization": 16,
+  "norm_monic_coefficients_ascending_mod_101": [
+    24,
+    0,
+    14,
+    86,
+    56,
+    67,
+    35,
+    66,
+    21,
+    90,
+    25,
+    99,
+    14,
+    24,
+    65,
+    47,
+    21,
+    87,
+    97,
+    93,
+    9,
+    52,
+    59,
+    27,
+    4,
+    61,
+    22,
+    49,
+    66,
+    56,
+    3,
+    28,
+    7,
+    27,
+    11,
+    81,
+    61,
+    88,
+    9,
+    41,
+    47,
+    58,
+    64,
+    20,
+    44,
+    18,
+    22,
+    41,
+    80,
+    69,
+    90,
+    96,
+    72,
+    19,
+    46,
+    10,
+    56,
+    88,
+    87,
+    21,
+    15,
+    11,
+    72,
+    53,
+    33,
+    7,
+    69,
+    77,
+    51,
+    17,
+    25,
+    56,
+    55,
+    84,
+    23,
+    4,
+    93,
+    48,
+    31,
+    85,
+    85,
+    11,
+    2,
+    26,
+    32,
+    29,
+    0,
+    31,
+    6,
+    0,
+    1
+  ],
+  "monic_norm_irreducible": true
+}

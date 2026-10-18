@@ -1,0 +1,62 @@
+{
+  "sextic_degree": 6,
+  "constant_coefficient": "X^6*(A+X+1)^6",
+  "hurwitz_residual_checks": [
+    {
+      "hurwitz_minor": 1,
+      "factor_removed": "S",
+      "residual_degree_A_X": [
+        11,
+        11
+      ],
+      "residual_coefficient_count_after_X_substitution": 78,
+      "residual_coefficient_sign": -1,
+      "transformed_v_degree": 11
+    },
+    {
+      "hurwitz_minor": 2,
+      "factor_removed": "S^3",
+      "residual_degree_A_X": [
+        21,
+        21
+      ],
+      "residual_coefficient_count_after_X_substitution": 253,
+      "residual_coefficient_sign": -1,
+      "transformed_v_degree": 21
+    },
+    {
+      "hurwitz_minor": 3,
+      "factor_removed": "S^6",
+      "residual_degree_A_X": [
+        30,
+        30
+      ],
+      "residual_coefficient_count_after_X_substitution": 496,
+      "residual_coefficient_sign": 1,
+      "transformed_v_degree": 30
+    },
+    {
+      "hurwitz_minor": 4,
+      "factor_removed": "X^2*S^10",
+      "residual_degree_A_X": [
+        36,
+        36
+      ],
+      "residual_coefficient_count_after_X_substitution": 703,
+      "residual_coefficient_sign": 1,
+      "transformed_v_degree": 36
+    },
+    {
+      "hurwitz_minor": 5,
+      "factor_removed": "X^6*S^15",
+      "residual_degree_A_X": [
+        39,
+        39
+      ],
+      "residual_coefficient_count_after_X_substitution": 820,
+      "residual_coefficient_sign": -1,
+      "transformed_v_degree": 39
+    }
+  ],
+  "delta6_sign": "positive because c0>0 and delta5>0"
+}

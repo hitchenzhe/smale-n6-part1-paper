@@ -1,0 +1,32 @@
+{
+  "diagram": 93,
+  "masses_m1_m2_m3": [
+    1,
+    2,
+    4
+  ],
+  "Euler_root_labels": 40,
+  "Lagrange_root_labels": 54,
+  "signed_torque_labels": 752,
+  "all_torque_disks_exclude_zero": true,
+  "least_exact_lower_bound": "23830488781026267/7812500000000000",
+  "margin_scale": 1000000000000000000000000,
+  "least_lower_bound_times_1e24_floor": 3050302563971362176000000,
+  "manuscript_printed_margin": 3050302563971362176000000,
+  "manuscript_margin_is_conservative_lower_bound_at_same_scale": true,
+  "manuscript_margin_matches_computed_least": true,
+  "least_label": [
+    "Lagrange",
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      -1,
+      1,
+      -1
+    ]
+  ],
+  "scope": "All root labels and torque intervals at one positive mass witness; original diagram-to-torque transition is a separate analytic step."
+}

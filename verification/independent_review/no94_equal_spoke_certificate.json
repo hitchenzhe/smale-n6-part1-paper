@@ -1,0 +1,158 @@
+{
+  "diagram": 94,
+  "mass_sample_mod17": [
+    1,
+    3,
+    5,
+    1
+  ],
+  "H3_quartic_coefficients_ascending_mod17": [
+    2,
+    10,
+    15,
+    10,
+    1
+  ],
+  "H3_quartic_irreducible": true,
+  "omega_as_polynomial_in_r": "12*r^3 + 13*r^2 + 13*r + 6",
+  "four_Frobenius_roots_covered": true,
+  "nine_phase_records": [
+    {
+      "cube_phase_exponents": [
+        0,
+        0
+      ],
+      "row_determinant": "4*r^3 + 12*r^2 + 6*r + 2",
+      "quadratic_tie_coefficients_C": [
+        "8*r^3 + 7*r + 10",
+        "12*r^3 + 2*r^2 + 7*r + 4",
+        "15*r^3 + 4*r^2 + 5*r + 4"
+      ],
+      "C1_minus_C2": "13*r^3 + 15*r^2 + 6",
+      "C1_minus_C3": "10*r^3 + 13*r^2 + 2*r + 6",
+      "no_common_finite_or_infinite_scale": true
+    },
+    {
+      "cube_phase_exponents": [
+        0,
+        1
+      ],
+      "row_determinant": "16*r^3 + 6*r^2 + 7*r + 8",
+      "quadratic_tie_coefficients_C": [
+        "8*r^3 + 7*r + 10",
+        "9*r^3 + 10*r^2 + 7*r + 8",
+        "14*r^3 + 6*r^2 + 3*r"
+      ],
+      "C1_minus_C2": "16*r^3 + 7*r^2 + 2",
+      "C1_minus_C3": "11*r^3 + 11*r^2 + 4*r + 10",
+      "no_common_finite_or_infinite_scale": true
+    },
+    {
+      "cube_phase_exponents": [
+        0,
+        2
+      ],
+      "row_determinant": "9*r^3 + r^2 + r + 14",
+      "quadratic_tie_coefficients_C": [
+        "8*r^3 + 7*r + 10",
+        "6*r^3 + r^2 + 8*r + 1",
+        "3*r^3 + 8*r^2 + 14*r + 6"
+      ],
+      "C1_minus_C2": "2*r^3 + 16*r^2 + 16*r + 9",
+      "C1_minus_C3": "5*r^3 + 9*r^2 + 10*r + 4",
+      "no_common_finite_or_infinite_scale": true
+    },
+    {
+      "cube_phase_exponents": [
+        1,
+        0
+      ],
+      "row_determinant": "15*r^3 + 11*r^2 + 8*r + 16",
+      "quadratic_tie_coefficients_C": [
+        "13*r^3 + 16*r^2 + 6*r + 1",
+        "12*r^3 + 2*r^2 + 7*r + 4",
+        "3*r^3 + 8*r^2 + 14*r + 6"
+      ],
+      "C1_minus_C2": "r^3 + 14*r^2 + 16*r + 14",
+      "C1_minus_C3": "10*r^3 + 8*r^2 + 9*r + 12",
+      "no_common_finite_or_infinite_scale": true
+    },
+    {
+      "cube_phase_exponents": [
+        1,
+        1
+      ],
+      "row_determinant": "10*r^3 + 5*r^2 + 9*r + 5",
+      "quadratic_tie_coefficients_C": [
+        "13*r^3 + 16*r^2 + 6*r + 1",
+        "9*r^3 + 10*r^2 + 7*r + 8",
+        "15*r^3 + 4*r^2 + 5*r + 4"
+      ],
+      "C1_minus_C2": "4*r^3 + 6*r^2 + 16*r + 10",
+      "C1_minus_C3": "15*r^3 + 12*r^2 + r + 14",
+      "no_common_finite_or_infinite_scale": true
+    },
+    {
+      "cube_phase_exponents": [
+        1,
+        2
+      ],
+      "row_determinant": "3*r^3 + 3*r + 11",
+      "quadratic_tie_coefficients_C": [
+        "13*r^3 + 16*r^2 + 6*r + 1",
+        "6*r^3 + r^2 + 8*r + 1",
+        "14*r^3 + 6*r^2 + 3*r"
+      ],
+      "C1_minus_C2": "7*r^3 + 15*r^2 + 15*r",
+      "C1_minus_C3": "16*r^3 + 10*r^2 + 3*r + 1",
+      "no_common_finite_or_infinite_scale": true
+    },
+    {
+      "cube_phase_exponents": [
+        2,
+        0
+      ],
+      "row_determinant": "15*r^3 + 7*r^2 + 13*r + 15",
+      "quadratic_tie_coefficients_C": [
+        "15*r^3 + 11*r^2 + 3*r + 4",
+        "12*r^3 + 2*r^2 + 7*r + 4",
+        "14*r^3 + 6*r^2 + 3*r"
+      ],
+      "C1_minus_C2": "3*r^3 + 9*r^2 + 13*r",
+      "C1_minus_C3": "r^3 + 5*r^2 + 4",
+      "no_common_finite_or_infinite_scale": true
+    },
+    {
+      "cube_phase_exponents": [
+        2,
+        1
+      ],
+      "row_determinant": "10*r^3 + r^2 + 14*r + 4",
+      "quadratic_tie_coefficients_C": [
+        "15*r^3 + 11*r^2 + 3*r + 4",
+        "9*r^3 + 10*r^2 + 7*r + 8",
+        "3*r^3 + 8*r^2 + 14*r + 6"
+      ],
+      "C1_minus_C2": "6*r^3 + r^2 + 13*r + 13",
+      "C1_minus_C3": "12*r^3 + 3*r^2 + 6*r + 15",
+      "no_common_finite_or_infinite_scale": true
+    },
+    {
+      "cube_phase_exponents": [
+        2,
+        2
+      ],
+      "row_determinant": "3*r^3 + 13*r^2 + 8*r + 10",
+      "quadratic_tie_coefficients_C": [
+        "15*r^3 + 11*r^2 + 3*r + 4",
+        "6*r^3 + r^2 + 8*r + 1",
+        "15*r^3 + 4*r^2 + 5*r + 4"
+      ],
+      "C1_minus_C2": "9*r^3 + 10*r^2 + 12*r + 3",
+      "C1_minus_C3": "7*r^2 + 15*r",
+      "no_common_finite_or_infinite_scale": true
+    }
+  ],
+  "all_equal_spoke_projective_scale_fibers_empty": true,
+  "scope": "Equal-spoke boundary chart at the H3 sample; other boundary charts require their own arguments."
+}

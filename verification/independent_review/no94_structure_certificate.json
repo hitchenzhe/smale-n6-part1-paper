@@ -1,0 +1,9 @@
+{
+  "diagram": 94,
+  "geometric_determinant_factorization": "c**2*(W1*a + W2*b - W3*a - W3*b)*(P1*W2 - P1*W3 - P2*W1 + P2*W3 + P3*W1 - P3*W2)",
+  "mass_centered_determinant": "-m3^2*(m1+m2+m3)*W3*oriented_area(P,W)",
+  "all_zero_determinant_actual_distinct_spoke_shapes_have_G_zero": true,
+  "collinear_original_row_identity": "Z0=m4*q_i*(Z0-Z4); distinct q_i imply Z0=Z4=0, hence G=0",
+  "equal_spoke_scale_ties": "C_i*(s^-3-m4)^2=1",
+  "scope": "Universal algebra. The full projective-boundary valuation cover is a separate mathematical argument."
+}
